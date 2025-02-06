@@ -2,9 +2,9 @@
 SETLOCAL
 
 :: URLs
-SET VSCODE_URL=https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
-SET NODEJS_URL=https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi
-SET GIT_URL=https://git-scm.com/download/win
+SET VSCODE_URL="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
+SET NODEJS_URL="https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi"
+SET GIT_URL="https://git-scm.com/download/win"
 
 :: VSCode
 echo install Visual Studio Code...
