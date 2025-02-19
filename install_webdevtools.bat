@@ -17,7 +17,7 @@ del vscode-installer.exe
 echo install Node.js...
 echo.
 curl -L -o nodejs-installer.msi %NODEJS_URL%
-start /wait msiexec /i nodejs-installer.msi /quiet
+start /wait msiexec /i nodejs-installer.msi /passive
 del nodejs-installer.msi
 
 :: Git
